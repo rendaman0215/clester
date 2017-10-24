@@ -1,0 +1,700 @@
+@charset "utf-8";
+/* CSS Document */
+/*---------------------------------
+_基本ベース
+-----------------------------------*/ 
+body{
+	font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+	font-size: 14px;
+	line-height: 2em;
+	letter-spacing: 2px;
+	color: #000;
+	background-color: #fff;
+	margin: 0px;
+	padding: 0px;
+	min-width: 320px;
+	-webkit-text-size-adjust: 100%;
+}
+
+/*---------------------------------
+_link
+-----------------------------------*/
+a:link {
+	color: #000;
+	text-decoration: none;
+	-webkit-transition: all .3s ease;
+	transition: all .3s ease;
+}
+a:visited {
+	color: #000;
+	text-decoration: none;
+}
+a:hover {
+	color: #000;
+	text-decoration: none;
+}
+a:active {
+	color: #000;
+	text-decoration: none;
+}
+
+
+/*---------------------------------
+_汎用スタイル
+-----------------------------------*/
+h1, h2, h3, h4 ,h5 {
+	font-size: 14px;
+	padding: 0px;
+	margin: 0px;
+	font-weight: normal;
+}
+img {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	vertical-align: top;
+	line-height: 100%;
+	max-width: 100%;
+}
+p {
+	margin: 0px;
+	padding: 0px;
+}
+form {
+	margin: 0px;
+	padding: 0px;
+}
+ul,ol  {
+	margin: 0px;
+	padding: 0px;	
+	list-style-type: none;
+}
+li {
+	padding: 0px;
+	margin: 0px;
+}
+dl,dt,dd {
+	margin: 0px;
+	padding: 0px;
+}
+a {
+	margin: 0px;
+	padding: 0px;
+}
+a img {
+	-webkit-transition: all .3s ease;
+	transition: all .3s ease;
+}
+a img:hover {
+	filter:alpha(opacity=70);
+    -moz-opacity:0.70;
+    -khtml-opacity: 0.70;
+    opacity:0.70;
+	filter:none/9;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*---------------------------------
+_font
+-----------------------------------*/
+.ff_garamond {
+	font-family: 'EB Garamond', serif;
+	letter-spacing: 2px;
+}
+
+/*---------------------------------
+_icon font
+-----------------------------------*/
+i.fa {
+	-webkit-transition: all .3s ease;
+	transition: all .3s ease;
+}
+i.fa:before {
+	color: #000;
+}
+i.fa:hover {
+	filter:alpha(opacity=70);
+    -moz-opacity:0.70;
+    -khtml-opacity: 0.70;
+    opacity:0.70;
+	filter:none/9;
+}
+/*---------------------------------
+_clearfix
+-----------------------------------*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {
+	display: inline-block;
+}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+
+/*---------------------------------
+_sp_pc
+-----------------------------------*/
+.sp_cr {
+	display: block;
+}
+.sp_display_none {
+	display: none;
+}
+.pc_cr {
+	display: inline;
+}
+
+/*---------------------------------
+_language
+-----------------------------------*/
+.bogo-language-switcher {
+	position: fixed;
+	top: 0px;
+	right: 60px;
+	z-index: 10;
+	
+}
+.bogo-language-switcher li {
+	display: inline-block;
+	line-height: 50px;
+	font-family: 'EB Garamond', serif;
+	letter-spacing: 2px;
+	color: #999;
+}
+.bogo-language-switcher li a {
+	color: #999;
+}
+.bogo-language-switcher li.current {
+	color: #000;
+}
+.bogo-language-switcher li.first:after {
+	content: " /";
+}
+.bogo-language-switcher .bogoflags-us:before,
+.bogo-language-switcher .bogoflags-jp:before {
+	content: none;
+}
+.bogoflags, .bogoflags-before:before  {
+	width: 0px!important;
+}
+
+/*---------------------------------
+_wrapper
+-----------------------------------*/
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+}
+
+/*---------------------------------
+_h1
+-----------------------------------*/
+h1.pc_display_none {
+	width: 100%;
+	background-color: #fff;
+	height: 30px;
+	padding: 10px 0 10px 4%;
+	position: fixed;
+	z-index: 10;
+	top: 0px;
+	left: 0px;
+}
+h1.pc_display_none img {
+	width: auto;
+	height: 30px;
+}
+
+/*---------------------------------
+_h2
+-----------------------------------*/
+h2 {
+	border-top: solid 1px #000;
+	border-bottom: solid 1px #000;
+	padding: 20px 0px;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+/*---------------------------------
+_container
+-----------------------------------*/
+#container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	-webkit-transition: all .5s ease;
+	transition: all .5s ease;
+	z-index: 2;
+	padding-top: 50px;
+}
+
+#container.sub {
+	padding-bottom: 50px;
+}
+/*---------------------------------
+_g_navi
+-----------------------------------*/
+.side-open #container,
+.side-open .overlay {
+	-webkit-transform: translate3d(-300px, 0, 0);
+	transform: translate3d(-300px, 0, 0);
+}
+
+.overlay {
+	content: '';
+	visibility: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0);
+	-webkit-transition: all .5s ease;
+	transition: all .5s ease;
+	z-index: 2001;
+}
+
+.side-open .overlay {
+	visibility: visible;
+	cursor: pointer;
+	background: rgba(0,0,0,.7);
+}
+
+.overlay::after {
+	visibility: hidden;
+	position: fixed;
+	top: 40%;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 50px;
+	color: rgba(255,255,255,0);
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	-webkit-transition: all .5s ease;
+	transition: all .5s ease;
+}
+
+.side-open .overlay::after {
+	visibility: visible;
+	color: rgba(255,255,255,.8);
+}
+
+/* --------------------------------------------------- side menu */
+body.no-scroll {
+    overflow: hidden;
+}
+.side-menu {
+	position: fixed;
+	top: 0;
+	right: 0;
+	box-sizing: border-box;
+	width: 300px;
+	height: 100%;
+	padding-top: 60px;
+	text-align: center;
+	z-index: 1;
+	display:none;
+	overflow: auto;
+}
+.side-open .side-menu {
+	display: block;
+}
+.side-menu__ul {
+	width: 100%;
+	height: auto;
+	display: block;
+	text-align: center;
+}
+
+.side-menu__ul > li > a,
+.side-menu__ul > li span {
+	display: block;
+	color: #000;
+}
+
+.side-menu__ul span {
+	cursor: pointer;
+	-webkit-transition: all .5s;
+	transition: all .5s;
+}
+
+/* --------------------------------------------------- ellipsis btn */
+.side-menu-btn {
+	position: fixed;
+	top: 8px;
+	right: 10px;
+	width: 20px;
+	height: 16px;
+	padding: 9px 7px 8px 7px;
+	cursor: pointer;
+	z-index: 4;
+}
+
+.ellipsis-v {
+	position: relative;
+	display: block;
+	cursor: pointer;
+	width: 16px;
+	height: 14px;
+}
+
+.ellipsis-v .point {
+	position: absolute;
+	left: 0;
+	right: 0;
+	display: block;
+	width: 20px;
+	height: 2px;
+	margin: auto;
+	background: #000;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+
+.ellipsis-v .point.top {
+	top: 0;
+}
+
+.ellipsis-v .point.mid {
+	top: 0;
+	bottom: 0;
+}
+
+.ellipsis-v .point.bot {
+	bottom: 0;
+}
+
+.side-menu-btn:hover .top {
+	-webkit-transform: translateY(-1px);
+	-ms-transform: translateY(-1px);
+	transform: translateY(-1px);
+}
+
+.side-menu-btn:hover .bot {
+	-webkit-transform: translateY(1px);
+	-ms-transform: translateY(1px);
+	transform: translateY(1px);
+}
+
+.side-open .side-menu-btn:hover .top,
+.side-open .top {
+	left: 4px;
+	width: 18px;
+	background: #000;
+	-webkit-transform-origin: left top;
+	-ms-transform-origin: left top;
+	transform-origin: left top;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.side-open .mid {
+	opacity: 0;
+}
+
+.side-open .side-menu-btn:hover .bot,
+.side-open .bot {
+	left: 4px;
+	width: 18px;
+	background: #000;
+	-webkit-transform-origin: left bottom;
+	-ms-transform-origin: left bottom;
+	transform-origin: left bottom;
+	-webkit-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+/*---------------------------------
+_ヘッダー
+-----------------------------------*/
+
+.side-menu .side-menu__ul {
+	padding-bottom: 10px;
+}
+.side-menu .side-menu__ul li {
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.side-menu .side-menu__ul li a:link {
+	text-decoration: none;
+}
+.side-menu .side-menu__ul li a:hover {
+	filter:alpha(opacity=70);
+    -moz-opacity:0.70;
+    -khtml-opacity: 0.70;
+    opacity:0.70;
+	filter:none/9;
+}
+.side-menu .tel {
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+.side-menu .sns {
+	text-align: center;
+	font-size: 1.5em;
+}
+.side-menu .sns li {
+	display: inline-block;
+	padding: 0px 5px;
+}
+.side-menu .sns li img {
+	width: 30px;
+}
+
+/*---------------------------------
+_loading
+-----------------------------------*/
+#loading {
+	width: 100%;
+	height: 100%;
+	background: #ffffff; /* gif画像の背景色 */
+	/*opacity: 0.9; /* 透過させる */
+	position: fixed; /* gif画像をスクロールさせない */
+	left: 0; /* gif画像を画面横中央へ */
+	top: 0; /* gif画像を画面縦中央へ */
+	z-index: 9999;
+
+}
+#loading table {
+	width: 100%;
+	height: 100%;
+}
+#loading table tr td {
+	text-align: center;
+	vertical-align: middle;
+}
+/*img.loading {
+	width: 40px;
+	height: auto;
+}*/
+
+/*---------------------------------
+_footer
+-----------------------------------*/
+footer {
+	position: fixed;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	bottom: 0px;
+	left: 0px;
+}
+footer address {
+	font-style: normal;
+	font-size: 0.8em;
+}
+
+/*---------------------------------
+_text_area
+-----------------------------------*/
+.text_area p {
+	margin-bottom: 2em;
+}
+
+/*---------------------------------
+_記事読み込みの部分
+-----------------------------------*/
+#infscr-loading {
+	text-align:center;
+	margin: 30px auto 0px auto;
+}
+@media screen and (min-width : 600px),print {
+	
+}
+
+@media screen and (min-width : 960px),print {
+	
+	body {
+		min-width: 1200px;
+	}
+
+	/*---------------------------------
+	_a.underline
+	-----------------------------------*/
+	a.underline {
+	  position: relative;
+	  display: inline-block;
+	  transition: .3s;
+	}
+	a.underline::after {
+	  position: absolute;
+	  bottom: 0;
+	  left: 50%;
+	  content: '';
+	  width: 0;
+	  height: 1px;
+	  background-color: #000;
+	  transition: .3s;
+	  -webkit-transform: translateX(-50%);
+	  transform: translateX(-50%);
+	}
+	a.underline:hover::after {
+	  width: 100%;
+	}
+	
+	a.underline_left {
+	  position: relative;
+	  display: inline-block;
+	  transition: .3s;
+	}
+	a.underline_left::after {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		content: '';
+		width: 0;
+		height: 1px;
+		background-color: #000;
+		transition: .3s;
+	}
+	a.underline_left:hover::after {
+	  width: 100%;
+	}
+	
+	/*---------------------------------
+	_sp-pc
+	-----------------------------------*/
+	.sp_cr {
+		display: inline;
+	}
+	.pc_cr {
+		display: block;
+	}
+	.pc_display_none {
+		display: none;
+	}
+	.sp_display_none {
+		display: block;
+	}
+	
+	.textarea p {
+		margin-bottom: 2em;
+	}
+
+	/*---------------------------------
+	_wrapper
+	-----------------------------------*/
+	.wrapper {
+		width: 1000px;
+		margin: 0 auto;
+	}
+
+	/*---------------------------------
+	_language
+	-----------------------------------*/
+	.bogo-language-switcher {
+		position: fixed;
+		top: 0px;
+		right: 80px;
+		z-index: 10;
+
+	}
+	
+	/*---------------------------------
+	_h2
+	-----------------------------------*/
+	h2 {
+		width: 1000px;
+		margin: 10px auto 55px auto;
+		font-size: 22px;
+	}
+
+	/*---------------------------------
+	_container
+	-----------------------------------*/
+	#container {
+		padding-top: 0px;
+	}
+	
+	/*---------------------------------
+	_g_navi
+	-----------------------------------*/
+	.side-menu {
+		position: relative;
+		width: 100%;
+		text-align: left;
+		overflow: hidden;
+		padding: 0px;
+		display: block;
+	}
+	.side-menu h1 {
+		padding: 48px 0px 40px 0px ;
+		width: 130px;
+		height: auto;
+		margin: 0 auto;
+	}
+	.side-menu h1 img {
+		width: 100%;
+		height: auto;
+	}
+	.side-menu .side-menu__ul {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.side-menu .side-menu__ul li {
+		font-size: 14px;
+		margin: 0;
+		padding: 0 25px;
+		display: inline-block;
+	}
+	.side-menu .sns {
+		position: fixed;
+		right: 10px;
+		top: 10px;
+	}
+	.side-menu .sns li {
+		font-size: 16px;
+		padding: 0 5px;
+	}
+	.side-menu-btn {
+		display: none;
+	}
+	#main {
+		width: 700px;
+		float: left;
+	}
+	#side {
+		width: 350px;
+		float: right;
+		margin-bottom: 80px;
+	}
+	
+	/*---------------------------------
+	_g_navi
+	-----------------------------------*/
+	.mvup {
+		opacity: 0;
+		transform: translate(0,100px); 
+		-webkit-transform: translate(0,100px); 
+		transition: .5s;
+	}
+	.mvup_on {
+		opacity: 1.0;
+		transform: translate(0,0); 
+		-webkit-transform: translate(0,0);
+	}
+
+
+
+}
