@@ -1,1 +1,84 @@
 
+
+
+
+#toplogo {
+	padding: 15px 50px 5px 50px;
+	position: fixed !important;
+	position: absolute;
+	top:0;
+	left:0;
+	text-align:left;
+
+	font-size:44px;
+	color:#505050;
+	font-weight:bold;
+	font-style:oblique;
+	font-family:"Times New Roman";
+
+
+	width: 100%;
+	z-index:10;
+
+}
+
+.menu{
+	margin:40px 0 0 0;
+	position:sticky;
+	top:0px;
+	text-align:center;
+	font-family: "Times New Roman";
+	font-size:26px;
+	padding:30px 10px 20px 10px;
+	width:100%;
+
+	background-color: #ffffff;
+	overflow:auto;
+	z-index:5;
+}
+
+.menu li {
+	padding:0px 40px 0px 40px;
+	display:inline;
+}
+
+.menu a{
+	color:#808080;
+	text-decoration: none;
+}
+
+.menu a:visited{
+	color:#808080;
+}
+
+.menu a:hover{
+	color:#303030;
+}
+
+
+#content{
+    height: 100%;
+    overflow: auto;
+    background-color: 
+    z-index:0;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    background-color: #ffffff;
+}
+
+
+address{
+	font-style:normal;
+	text-align: center;
+	font-size:10px;
+}
+
+
+
+
+
