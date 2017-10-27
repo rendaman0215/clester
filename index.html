@@ -42,6 +42,7 @@
 		<!-- bxslider設定 -->
 		<script type="text/javascript">
 			$(document).ready(function(){
+				var $video = $('#topvideo').get(0);
 				$('.bxslider').bxSlider({
 					//無限ループさせない
 					infiniteLoop: false,
@@ -50,11 +51,23 @@
 					//スライドにかかる時間を指定
 					speed: 2000,
 					//スライドの横幅を指定
-					slideWidth: 665
+					slideWidth: 665,
+
+					//スライダロード時に自動で動画再生
+					onSliderLoad : function() {$video.play();},
+					
+					//スライド遷移時、１枚目以外なら動画位置を０にする
+ 					onSlideAfter: function($slideElement, oldIndex, newIndex) {
+ 						if(newIndex != 0){
+ 							$video.pause();
+ 							$video.currentTime = 0;
+ 						} else {
+ 							$video.play();
+ 						}
+ 					}
 				});
 			});
 		</script>
-
 
 	</head>
 	<body>
@@ -74,7 +87,7 @@
 
 		<div id="content" align="center">
 			<ul class="bxslider">
-				<li><img src="WebContent/images/og_image.jpg" width="665" height="500"></li>
+				<li><video id=topvideo src="WebContent/video/clester.mp4" width="665" height="500"></video></li>
 				<li><img src="WebContent/images/og_image.jpg" width="665" height="500"></li>
 				<li><img src="WebContent/images/og_image.jpg" width="665" height="500"></li>
 			</ul>
