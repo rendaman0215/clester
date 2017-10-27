@@ -30,15 +30,39 @@
 
 		<!-- javascript start -->
 		<script type="text/javascript" src="WebContent/js/jquery-3.2.1.min.js"></script>
-		<script type="text/javascript" src="WebContent/jquery.bxslider.js"  charset="UTF-8"></script>
+		<script type="text/javascript" src="WebContent/js/jquery.bxslider.js"  charset="UTF-8"></script>
 		<script type="text/javascript" src="WebContent/js/scrollsmoothly.js"  charset="UTF-8"></script>
 		<!-- javascript end -->
 
 		<!-- アイコン設定 -->
 		<link href="WebContent/images/top.ico" rel="shortcut icon" /> 
 
+		<!-- bxslider設定 -->
+		<script type="text/javascript">
+			jQuery(document).ready(function($){
+				$('.bxslider').bxSlider({
+					//無限ループさせない
+					infiniteLoop: false,
+					//左端では左ボタン、右端では右ボタンが非表示
+					hideControlOnEnd: true,
+					//スライドにかかる時間を指定
+					speed: 2000,
+					//スライドの横幅を指定
+					slideWidth: 800
+				});
+			});
+		</script>
+
+
 	</head>
 	<body>
+		<ul class="bxslider">
+			<li><img src="WebContent/images/og_image.jpg" width="800" height="600"></li>
+			<li><img src="WebContent/images/og_image.jpg" width="800" height="600"></li>
+			<li><img src="WebContent/images/og_image.jpg" width="800" height="600"></li>
+		</ul>
+
+
 		<footer>
 			<address>&copy 2017 Clester.  all rights reserved.</address>
 		</footer>
