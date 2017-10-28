@@ -18,7 +18,7 @@
 }
 
 .menu{
-	margin:40px 0 0 0;
+	margin:20px 0 0 0;
 	position:sticky;
 	top:0px;
 	text-align:center;
@@ -76,11 +76,17 @@
 
 
 #content{
+	top:500;
+	padding:500px 0 0 0;
     height: 100%;
     overflow: auto;
     z-index:0;
-    /* 画像を常に天地左右の中央に配置 */
-    background-position: center center;
+
+    /*背景画像を指定*/
+    background-image: url(../images/bg_larc.png);
+
+    /* 画像を常に左右の中央、天地の上ぞろえで配置 */
+    background-position: center 100px;
    
 	/* 画像をタイル状に繰り返し表示しない */
 	background-repeat: no-repeat;
@@ -89,7 +95,7 @@
 	background-attachment: fixed;
 
 	/* 表示するコンテナの大きさに基づいて、背景画像を調整 */
-	background-size: cover;
+	background-size: contain;
 
 	/* 背景画像が読み込まれる前に表示される背景のカラー */
 	background-color: #FFFFFF;
