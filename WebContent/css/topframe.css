@@ -1,4 +1,9 @@
-body{
+#body_bg{
+	position:relative;
+	height: 100%;
+	width:100%;
+	z-index:-5;
+
     /*背景画像を指定*/
     background-image: url(../images/bg_larc.png);
 
@@ -14,10 +19,6 @@ body{
 	/* 表示するコンテナの大きさに基づいて、背景画像を調整 */
 	background-size: contain;
 }
-
-
-
-
 
 
 #toplogo {
@@ -97,7 +98,8 @@ body{
 
 
 #content{
-	margin:500px 0 0px 0px;
+	position:absolute;
+	top:0;
 	padding:20px 0px 100px 0px;
     height: 100%;
     width:100%;
