@@ -24,16 +24,16 @@
 }
 
 .item_list {
-	width: 860px;
+	width: 600px;
 	font-size: 16px;
 }
 #news .date {
-	width: 200px;
+	width: 100px;
 	float: left;
 }
 #news .title {
 	margin-top: 0px;
-	width: 600px;
+	width: 500px;
 	float: left;
 }
 .item_list .item {
@@ -52,6 +52,6 @@
 		width: 90%;
 		margin: 0 auto;
 		position: relative;
-		width: 1000px;
+		width: 665px;
 	}
 }

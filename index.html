@@ -68,7 +68,7 @@
 					slideWidth: 665,
 					//スライド遷移時、2枚目以外なら動画位置を0にする。２枚目なら再生する。
  					onSlideAfter: function($slideElement, oldIndex, newIndex) {
- 						if(newIndex != 1){
+ 						if(newIndex != 0){
  							$video.pause();
  							$video.currentTime = 0;
  						}
