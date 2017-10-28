@@ -36,8 +36,8 @@
 }
 
 .menu li {
-	width:120px;
-	padding:px 3px 0px 3px;
+	width:100px;
+	padding:10px 3px 0px 3px;
 	margin:0 10px 0 10px;
 	display:inline-block;
 }
