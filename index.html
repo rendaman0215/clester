@@ -39,6 +39,16 @@
 		<!-- アイコン設定 -->
 		<link href="WebContent/images/top.ico" rel="shortcut icon" /> 
 
+		<!-- Google アナリティクス -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108875674-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'UA-108875674-1');
+		</script>
+
+
 		<!-- bxslider設定 -->
 		<script type="text/javascript">
 			$(document).ready(function(){
@@ -54,11 +64,15 @@
 					slideWidth: 665,
 
 					//スライダロード時に自動で動画再生
+<<<<<<< HEAD
 					//onSliderLoad : function() {$video.play();}, 
+=======
+					//onSliderLoad : function() {$video.play();},
+>>>>>>> ad43b44e74832ef683532aff8374e90c1fcfb25a
 					
-					//スライド遷移時、１枚目以外なら動画位置を０にする
+					//スライド遷移時、1枚目以外なら動画位置を0にする
  					onSlideAfter: function($slideElement, oldIndex, newIndex) {
- 						if(newIndex != 0){
+ 						if(newIndex != 1){
  							$video.pause();
  							$video.currentTime = 0;
  						} else {
@@ -88,8 +102,8 @@
 
 		<div id="content" align="center">
 			<ul class="bxslider">
-				<li><video id=topvideo src="WebContent/video/clester.mp4" width="665" height="500"></video></li>
 				<li><img src="WebContent/images/og_image.jpg" width="665" height="500"></li>
+				<li><video id=topvideo src="WebContent/video/clester.mp4" width="665" height="500"></video></li>
 				<li><iframe width="665" height="480" src="https://www.youtube.com/embed/nAbqF1K_kPc?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></li>
 			</ul>
 		</div>
