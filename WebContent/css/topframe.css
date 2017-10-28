@@ -36,8 +36,8 @@
 }
 
 .menu li {
-	width:130px;
-	padding:0px 6px 0px 6px;
+	width:100px;
+	padding:10px 3px 0px 3px;
 	margin:0 10px 0 10px;
 	display:inline-block;
 }
@@ -81,7 +81,7 @@
 #content{
     height: 100%;
     overflow: auto;
-    background-color: 
+    background-image:url("../WebContent/images/bg.jpg")
     z-index:0;
     /* 画像ファイルの指定 */
     background-image: url(../images/bg.jpg);
