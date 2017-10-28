@@ -13,18 +13,18 @@
 	font-style:oblique;
 	font-family:"Times New Roman";
 
-	width: 100%;
+	width: 10%;
 	z-index:10;
 }
 
 .menu{
-	margin:20px 0 0 0;
+	margin:40px 0 0 0;
 	position:sticky;
 	top:0px;
 	text-align:center;
 	font-family: "Times New Roman";
 	font-size:18px;
-	padding:30px 0px 20px 0px;
+	padding:25px 0px 20px 0px;
 	width:100%;
 
 	background-color: #ffffff;
