@@ -56,13 +56,13 @@ body{
 }
 
 .menu li {
-	width:100px;
-	padding:10px 3px 0px 3px;
+/*	width:100px;*/
+	padding:10px 20px 0px 20px;
 	margin:0 10px 0 10px;
 	display:inline-block;
 }
 
-.menu a{
+.menu a {
 	position:relative;
 	color:#808080;
 	text-decoration: none;
