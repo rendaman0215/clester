@@ -18,7 +18,9 @@ body{
 	/* 表示するコンテナの大きさに基づいて、背景画像を調整 */
 	background-size: contain;
 }
-
+#box h2 {
+	margin-bottom: 0px;
+}
 
 #toplogo {
 	padding: 15px 50px 5px 50px;
