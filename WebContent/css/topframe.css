@@ -81,10 +81,9 @@
 #content{
     height: 100%;
     overflow: auto;
-    background-image:url("../WebContent/images/bg.jpg")
     z-index:0;
     /* 画像ファイルの指定 */
-    background-image: url(../images/bg.jpg);
+    background-image: url(../images/bg_glay.png);
 
     /* 画像を常に天地左右の中央に配置 */
     background-position: center center;
