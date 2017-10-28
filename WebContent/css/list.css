@@ -1,6 +1,5 @@
 @charset "utf-8";
 /* CSS Document */
-/*--- NEWS用CSS ---*/ 
 
 /*--- clearfix ---*/
 .clearfix:after {
@@ -18,7 +17,17 @@
 .clearfix {display: block;}
 
 
-/*--- item ---*/
+/*--- wrapper ---*/
+	.wrapper {
+		width: 90%;
+		margin: 0 auto;
+		position: relative;
+		width: 665px;
+	}
+}
+
+
+/*--- news ---*/
 #news{
 	margin-top: 100px;
 }
@@ -46,12 +55,15 @@
 	padding: 10px 0px;
 }
 
+/*--- profile ---*/
+#profile{
+	margin-top: 100px;
+}
 
-/*--- wrapper ---*/
-	.wrapper {
-		width: 90%;
-		margin: 0 auto;
-		position: relative;
-		width: 665px;
-	}
+#discography{
+	margin-top: 100px;
+}
+
+#videos{
+	margin-top: 100px;
 }
