@@ -16,10 +16,8 @@
 	font-style:oblique;
 	font-family:"Times New Roman";
 
-
 	width: 100%;
 	z-index:10;
-
 }
 
 .menu{
@@ -51,9 +49,32 @@
 	color:#808080;
 }
 
+
+.menu a:after{
+	position:absolute;
+	bottom: 10px;
+	content: '';
+	width: 100%;
+	height: 2px;
+	background:#404040;
+	opacity:0;
+	visibility:visible;
+}
+
+/*
+.menu a:hover::after{
+	transform:scale(1, 1);
+}
+*/
+
 .menu a:hover{
 	color:#303030;
+/*	border-bottom:solid 2px #404040;
+*/
+	text-transform:translate(10px,10px);
 }
+
+
 
 
 #content{
