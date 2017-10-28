@@ -121,7 +121,7 @@
        // 目標座標付近に到達していたら終了
        scrollTo(targetX, targetY);
        scrolling = false;
-       location.hash = targetHash;
+       //location.hash = targetHash;
        prevX = prevY = null;
        return;
      }else{
