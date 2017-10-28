@@ -1,3 +1,4 @@
+
 body{
 	height: 100%;
 	width:100%;
@@ -6,7 +7,7 @@ body{
     /*背景画像を指定*/
     background-image: url(../images/bg_larc.png);
 
-    /* 画像を常に左右の中央、天地の上ぞろえで配置 */
+    /* 画像を常に左右の中央、上から120pxの位置に配置 */
     background-position: center 120px;
    
 	/* 画像をタイル状に繰り返し表示しない */
