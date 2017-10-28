@@ -64,11 +64,11 @@
 					slideWidth: 665,
 
 					//スライダロード時に自動で動画再生
-					onSliderLoad : function() {$video.play();},
+					//onSliderLoad : function() {$video.play();},
 					
 					//スライド遷移時、1枚目以外なら動画位置を0にする
  					onSlideAfter: function($slideElement, oldIndex, newIndex) {
- 						if(newIndex != 0){
+ 						if(newIndex != 1){
  							$video.pause();
  							$video.currentTime = 0;
  						} else {
@@ -97,8 +97,8 @@
 
 		<div id="content" align="center">
 			<ul class="bxslider">
-				<li><video id=topvideo src="WebContent/video/clester.mp4" width="665" height="500"></video></li>
 				<li><img src="WebContent/images/og_image.jpg" width="665" height="500"></li>
+				<li><video id=topvideo src="WebContent/video/clester.mp4" width="665" height="500"></video></li>
 				<li><iframe width="665" height="480" src="https://www.youtube.com/embed/nAbqF1K_kPc?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></li>
 			</ul>
 		</div>
