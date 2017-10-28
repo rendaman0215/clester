@@ -97,8 +97,8 @@ body{
 
 
 #content{
-	margin:500px 0 0 0;
-	padding:20px 0px 0px 0px;
+	margin:500px 0 0px 0px;
+	padding:20px 0px 100px 0px;
     height: 100%;
     width:100%;
     overflow: auto;
