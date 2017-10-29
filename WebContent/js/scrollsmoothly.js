@@ -100,7 +100,7 @@
      }
      var maxScroll = getScrollMaxXY();
      targetX = Math.min(x, maxScroll.x);
-     targetY = Math.min(y, maxScroll.y);
+     targetY = Math.min(y, maxScroll.y)-85;
      targetHash = hash;
      // スクロール停止中ならスクロール開始
      if(!scrolling){
