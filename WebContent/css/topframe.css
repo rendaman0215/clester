@@ -1,5 +1,6 @@
 
 body{
+	margin:0 0 0 0;
 	height: 100%;
 	width:100%;
 	z-index:-5;
@@ -24,25 +25,41 @@ body{
 }
 
 #toplogo {
+	margin:25px 60px 5px 60px;
+/*
 	padding: 15px 50px 5px 50px;
+*/
 	position: fixed !important;
 	position: absolute;
 	top:0;
 	left:0;
 	text-align:left;
 
+	height:38px;
+	width: 130px;
+	z-index:10;
+
+	background-image:url(../images/logo1.png);
+	background-position:center center;
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+
+/*
 	font-size:44px;
 	color:#505050;
 	font-weight:bold;
 	font-style:oblique;
 	font-family:"Times New Roman";
+*/
 
-	width: 10%;
-	z-index:10;
+
 }
 
 #topsns{
+	margin:20px 50px 5px 33px;
+/*
 	padding: 20px 50px 5px 33px;
+*/
 	position: fixed !important;
 	position: absolute;
 	top:0;
@@ -73,17 +90,28 @@ body{
 	color:#303030;
 }
 
+
 .menu{
-	margin:60px 0 0 0;
+	margin:45px 0 0 0;
+	padding:30px 0px 20px 0px;
+
+	position:absolute;
 	position:sticky;
 	top:0px;
+	left:0px;
+	right:0px;
+
 	text-align:center;
 	font-family: "Times New Roman";
 	font-size:18px;
-	padding:25px 0px 20px 0px;
+
 	width:100%;
+	box-sizing:border-box;
 
 	background-color: #ffffff;
+/*
+	background-color:#356;
+*/
 	overflow:auto;
 	z-index:5;
 }
@@ -91,7 +119,7 @@ body{
 .menu li {
 /*	width:100px;*/
 	padding:10px 20px 0px 20px;
-	margin:0 10px 0 10px;
+	margin:0 15px 0 15px;
 	display:inline-block;
 }
 
