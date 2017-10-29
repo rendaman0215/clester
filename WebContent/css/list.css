@@ -58,16 +58,13 @@
 
 #profile{
 	margin-top: 100px;
+	margin-bottom: 200px;
 }
 
 .band_discription{
 	font-size: 80%;
 }
 
-#discography{
-	margin-top: 100px;
-}
-
-#videos{
-	margin-top: 100px;
+.detailBtn{
+	
 }
