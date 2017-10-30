@@ -27,30 +27,31 @@
 
 /*--- NEWS詳細へのリンク ---*/
 .detail{
-	margin-top: 30px;
+	margin-top: 15px;
 }
 
 .detail a{
 	float: right;
-	color: #000000;
+	font-size: 12px;
+	color: #505050;
 	text-decoration: none;
 
 	padding: 0.5em 1em;
 	margin: 2em 0;
 	color: #000000;/*文字色*/
     background: #FFFFFF;
-    border: solid 1px #000000;/*線*/
+    border: solid 1px #505050;/*線*/
     border-radius: 30px;/*角の丸み*/
 }
 
 .detail a:visited{
-	color: #000000;
+	color: #505050;
 }
 
 .detail a:hover{
 	transition: 0.5s;
 	color: #FFF;
-	background: #000;
+	background: #505050;
 }
 
 
