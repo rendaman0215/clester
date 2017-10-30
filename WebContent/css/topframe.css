@@ -160,6 +160,7 @@ body{
 
 
 #content{
+	position:relative;
 	margin:500px 0 0 0;
 	padding:0px 0px 100px 0px;
     height: 100%;
@@ -169,6 +170,28 @@ body{
 	/* 背景画像が読み込まれる前に表示される背景のカラー */
 	background-color: #FFFFFF;
 }
+
+/*--- 詳細へのリンク ---*/
+.detail{
+	width:600px;
+	margin:10px 0 0 0;
+	position:relative;
+	top:10px;
+	right:0px;
+	color:#808080;
+}
+
+.detail a{
+	position:absolute;
+	right:0;
+	text-decoration: none;
+	background-color:#456;
+}
+
+.detail a:visited{
+	color:#808080;
+}
+
 
 footer{
     position: fixed;

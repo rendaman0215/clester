@@ -27,6 +27,9 @@
 }
 
 
+
+
+
 /*--- news ---*/
 .item_list {
 	width: 600px;
@@ -53,6 +56,7 @@
 
 /*--- profile ---*/
 #news{
+	position:relative;
 	margin-top: 100px;
 }
 

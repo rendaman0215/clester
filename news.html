@@ -49,37 +49,10 @@
 			gtag('js', new Date());
 			gtag('config', 'UA-108875674-1');
 		</script>
-
-
-		<!-- bxslider設定 -->
-		<script type="text/javascript">
-			$(document).ready(function(){
-				var $video = $('#topvideo').get(0);
-				$('.bxslider').bxSlider({
-					//無限ループさせない
-					infiniteLoop: false,
-					//左端では左ボタン、右端では右ボタンが非表示
-					hideControlOnEnd: true,
-					//タイトル表示を有効化
-					captions: true,
-					//スライドにかかる時間を指定
-					speed: 1000,
-					//スライドの横幅を指定
-					slideWidth: 665,
-					//スライド遷移時、2枚目以外なら動画位置を0にする。２枚目なら再生する。
- 					onSlideAfter: function($slideElement, oldIndex, newIndex) {
- 						if(newIndex != 0){
- 							$video.pause();
- 							$video.currentTime = 0;
- 						}
- 					}
-				});
-			});
-		</script>
 	</head>
 
 	<body>
-		<a href="#toplogo"><div id="toplogo"></div></a>
+		<a href="../clester/"><div id="toplogo"></div></a>
 		<div id="topsns">
 			<li><a href=""><i class="fa fa-facebook"></i></a></li><!--
 		 --><li><a href=""><i class="fa fa-youtube-play"></i></a></li>
@@ -87,23 +60,15 @@
 
 		<div class="menu" align="center">
 			<ur>
-				<li><a href="#toplogo">Home</a></li><!--
-			 --><li><a href="#news">News</a></li><!--
-			 --><li><a href="#profile">Profile</a></li><!--
+				<li><a href="index.html">Home</a></li><!--
+			 --><li><a href="#toplogo" class="">News</a></li><!--
+			 --><li><a href="index.html#profile">Profile</a></li><!--
 			 --><li><a href="#discography">Discography</a></li><!--
 			 --><li><a href="#videos">Videos</a></li>
 			</ul>
 		</div>
 
 		<div id="content">
-			<div id="box" align="center">
-				<h2>PICKUP</h2>
-				<ul class="bxslider">
-					<li><video muted controls id=topvideo src="WebContent/video/clester.mp4" width="665" height="400"　title="" align="center"></video></li>
-					<li><img src="WebContent/images/og_image_glay.png" width="665" height=100% title="2017/10/14 Live@ReBirth" align="center"></li>
-					<li><img src="WebContent/images/og_image_glay.png" width="665" height=100% title="2017/10/14 Live@ReBirth" align="center"></li>
-				</ul>
-			</div>
 			<div id="news">
 				<h2 align="center">NEWS</h2>
 				<div class="item_list clearfix wrapper">
@@ -115,23 +80,10 @@
 						<div class="date">2017.04.10</div>
 						<div class="title">『BERS企画 第一弾」に出演が決定！</div></p>
 					</article>
-				</div>
-				<div class="detail" align="center">
-					<a href="news.html">＞＞News一覧
-					</a>
-				</div>
-			</div>
-			<div id="profile">
-				<h2 align="center">PROFILE</h2>
-				<div class="band_discription clearfix wrapper">
-					<img src="WebContent/images/og_image_glay.png" width="665" height="300"% align="center">
-					Vocal & Guitar：	"KEISUKE"</br>
-					Guitar:			“雷電”</br>
-					Bass：			“さそぺん”</br>
-					Drums：			“新井田”</br></br>
-					2012年より高澤啓資、佐草和哉、新井田諭の３名で活動を開始。</br>
-					2017年より西大紀を迎え、４人組編成として再始動。</br>
-					2018年に1stミニアルバム「XXX」をリリース予定。
+					<article class="item"><p>
+						<div class="date">2012.03.10</div>
+						<div class="title">活動を開始</div></p>
+					</article>					
 				</div>
 			</div>
 		</div>
