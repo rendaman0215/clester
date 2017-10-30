@@ -166,7 +166,7 @@ body.topframe{
 	color:red!important;
 }
 
-.focus::after{
+.menu .focus::after{
 	position:absolute;
 	content: '';
 	width:100%;
