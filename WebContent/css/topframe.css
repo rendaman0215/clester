@@ -1,5 +1,4 @@
-
-body{
+body.topframe{
 	margin:0 0 0 0;
 	height: 100%;
 	width:100%;
@@ -160,7 +159,6 @@ body{
 
 
 #content{
-	position:relative;
 	margin:500px 0 0 0;
 	padding:0px 0px 100px 0px;
     height: 100%;
@@ -173,24 +171,38 @@ body{
 
 /*--- 詳細へのリンク ---*/
 .detail{
-	width:600px;
-	margin:10px 0 0 0;
-	position:relative;
-	top:10px;
-	right:0px;
+	text-align:right;
+	margin:15px auto 0 auto;
+	width:660px;
 	color:#808080;
+/*
+	background-color:#333;
+*/
 }
 
 .detail a{
-	position:absolute;
-	right:0;
 	text-decoration: none;
-	background-color:#456;
 }
 
 .detail a:visited{
 	color:#808080;
 }
+
+
+/* Discography,Videosのページにおける、Content*/
+
+#content_detail {
+	margin:0 0 0 0;
+	padding:0px 0px 100px 0px;
+    height: 100%;
+    width:100%;
+    overflow: auto;
+    z-index:0;
+	/* 背景画像が読み込まれる前に表示される背景のカラー */
+	background-color: #FFFFFF;
+}
+
+
 
 
 footer{
