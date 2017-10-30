@@ -33,11 +33,12 @@
 	margin-top: 15px;
 	text-decoration: none;
 
-	padding: 0.5em 1em;
+	padding:0.2em 1em;
 	color: #000000;/*文字色*/
     background: #FFFFFF;
     border: solid 1px #505050;/*線*/
     border-radius: 30px;/*角の丸み*/
+
 }
 
 .detail a:visited{
