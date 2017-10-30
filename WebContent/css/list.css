@@ -26,7 +26,24 @@
 	}
 }
 
+/*--- 詳細へのリンク ---*/
+.detail{
+	text-align:right;
+	margin:15px auto 0 auto;
+	width:660px;
+	color:#808080;
+/*
+	background-color:#333;
+*/
+}
 
+.detail a{
+	text-decoration: none;
+}
+
+.detail a:visited{
+	color:#808080;
+}
 
 
 
