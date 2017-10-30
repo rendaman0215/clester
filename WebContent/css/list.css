@@ -31,16 +31,15 @@
 }
 
 .detail a{
-	width: 150px;
 	float: right;
 	color: #000000;
+	text-decoration: none;
 
 	padding: 0.5em 1em;
 	margin: 2em 0;
-    font-weight: bold;
-    color: #000000;/*文字色*/
+	color: #000000;/*文字色*/
     background: #FFFFFF;
-    border: solid 3px #000000;/*線*/
+    border: solid 1px #000000;/*線*/
     border-radius: 30px;/*角の丸み*/
 }
 
@@ -49,8 +48,9 @@
 }
 
 .detail a:hover{
-	transition: 1s;
-	color: #0FFFFF;
+	transition: 0.5s;
+	color: #FFF;
+	background: #000;
 }
 
 
@@ -90,8 +90,4 @@
 
 .band_discription{
 	font-size: 80%;
-}
-
-.detailBtn{
-	
 }
