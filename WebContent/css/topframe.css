@@ -163,7 +163,6 @@ body.topframe{
 }
 
 .focus{
-	color:red!important;
 }
 
 .menu .focus::after{
