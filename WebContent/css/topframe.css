@@ -19,6 +19,11 @@ body.topframe{
 	/* 表示するコンテナの大きさに基づいて、背景画像を調整 */
 	background-size: contain;
 }
+
+#box{
+	margin-bottom: 100px
+}
+
 #box h2 {
 	margin-bottom: 0px;
 }
