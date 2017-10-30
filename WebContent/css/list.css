@@ -26,18 +26,14 @@
 }
 
 /*--- NEWS詳細へのリンク ---*/
-.detail{
-	margin-top: 15px;
-}
-
 .detail a{
 	float: right;
 	font-size: 12px;
 	color: #505050;
+	margin-top: 15px;
 	text-decoration: none;
 
 	padding: 0.5em 1em;
-	margin: 2em 0;
 	color: #000000;/*文字色*/
     background: #FFFFFF;
     border: solid 1px #505050;/*線*/
@@ -57,7 +53,7 @@
 
 /*--- news ---*/
 .item_list {
-	width: 600px;
+	width: 665px;
 	font-size: 16px;
 }
 #news .date {
@@ -76,13 +72,13 @@
 }
 .item_list p {
 	display: block;
-	padding: 10px 0px;
+	padding-top: 10px;
 }
 
 /*--- profile ---*/
 #news{
 	position:relative;
-	margin-bottom: 100px;
+	margin-bottom: 85px;
 }
 
 #profile{
