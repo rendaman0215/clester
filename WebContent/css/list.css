@@ -26,25 +26,23 @@
 	}
 }
 
-/*--- 詳細へのリンク ---*/
+/*--- NEWS詳細へのリンク ---*/
 .detail{
-	text-align:right;
-	margin:15px auto 0 auto;
-	width:660px;
-	color:#808080;
-/*
-	background-color:#333;
-*/
+	margin-top: 
 }
 
 .detail a{
-	text-decoration: none;
+	color: #000000;
 }
 
 .detail a:visited{
-	color:#808080;
+	color: #000000;
 }
 
+.detail a:hover{
+	transition: 1s;
+	color: #0FFFFF;
+}
 
 
 /*--- news ---*/
