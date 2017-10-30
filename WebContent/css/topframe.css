@@ -56,7 +56,6 @@ body.topframe{
 	font-family:"Times New Roman";
 */
 
-
 }
 
 #topsns{
@@ -132,7 +131,7 @@ body.topframe{
 	color:#808080;
 	text-decoration: none;
 	display: block;
-	transition:1s;
+	transition:0.5s;
 }
 
 .menu a:visited{
@@ -150,7 +149,7 @@ body.topframe{
 
 	transform: scale(0,1);
 	transform-origin: center top;
-	transition: 1s;
+	transition: 0.5s;
 }
 
 .menu a:hover{
