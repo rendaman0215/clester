@@ -1,13 +1,13 @@
 .dynamic_bg{
-	width: auto;
-	height: 80vh;
+	width: 100vw;
+	height: 100vh;
 	/*背景画像を指定*/
 	background-image: url(../images/bg_larc.png);
 	
 	/* 画像を常に左右の中央、上から120pxの位置に配置 */
 	background-position: center 120px;
 	
-	/* 画像をタイル状に繰り返し表示しない */
+	/* 画像をタイル状に繰り返し表示しない1 */
 	background-repeat: no-repeat;
 
 	/* コンテンツの高さが画像の高さより大きい時、動かないように固定 */
