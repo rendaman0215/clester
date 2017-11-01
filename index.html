@@ -66,6 +66,10 @@
 					speed: 1000,
 					//スライドの横幅を指定
 					slideWidth: 665,
+					//自動スクロール有効
+					auto: true,
+					//自動スクロールの感覚
+        			pause: 2000,
 					//スライド遷移時、2枚目以外なら動画位置を0にする。２枚目なら再生する。
  					onSlideAfter: function($slideElement, oldIndex, newIndex) {
  						if(newIndex != 0){
