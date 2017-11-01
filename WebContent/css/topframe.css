@@ -198,6 +198,20 @@
 	background-color: #FFFFFF;
 }
 
+/* レスポンシブ対応スマホ横向き */
+@media only screen and (max-width:800px) and (orientation:landscape) {
+/* style */
+}
+
+
+
+/* レスポンシブ対応スマホ縦向き */
+@media only screen and (max-width:480px) and (orientation:portrait) {
+.menu{
+	display: none
+}
+
+}
 
 
 
