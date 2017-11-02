@@ -222,6 +222,27 @@ address{
 		display: none;
 	}
 
+	.sp_menu{
+		margin:45px 0 0 0;
+		position: absolute;
+		position: -webkit-sticky; /* Safari対応 */
+		position: sticky;
+		top:0px;
+		left:0px;
+		right:0px;
+
+		text-align:center;
+		font-family: "Times New Roman";
+		font-size:10px;
+
+		width:100%;
+		box-sizing:border-box;
+
+		background-color: #ffffff;
+		overflow:auto;
+		z-index:5;
+	}
+
 	.smart_bg{
 		width: 100vw;
 	}
