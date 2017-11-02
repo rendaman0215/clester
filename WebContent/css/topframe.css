@@ -213,15 +213,24 @@ address{
 		background-size: contain;
 
 		z-index:-5;
-}
+	}
+
+	.smart_bg{
+		display: none;
+	}
 }
 
 
 /* レスポンシブ対応 スマホ横向き */
 @media only screen and (max-width:800px) and (orientation:landscape) {
-/* style */
-}
+	.dynamic_bg{
+		display: none;
+	}
 
+	.smart_bg{
+		width: 100vw;
+	}
+}
 
 
 /* レスポンシブ対応 スマホ縦向き */
@@ -230,4 +239,7 @@ address{
 		display: none;
 	}
 
+	.smart_bg{
+		width: 100vw;
+	}
 }
