@@ -245,6 +245,7 @@ address{
 	}
 
 	.smart_bg img{
+		margin-top:3vh;
 		width: 100%;
 		height: auto;
 	}
