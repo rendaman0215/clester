@@ -30,7 +30,6 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 		<link rel="stylesheet" href="WebContent/css/list.css" type="text/css" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
-		<!-- 新井田 -->
 		<link rel="stylesheet" href="WebContent/css/topframe.css" type="text/css" />
 		<!-- stylesheet End -->
 
@@ -86,6 +85,15 @@
 		<script>
 			$(document).ready(function() {
 	 			$('.drawer').drawer();
+			});
+		//toggleClass()でクリック時のクラスの付け外しを指示
+			$(function() {
+				$('.drawer').click(function () {
+					$(this).toggleClass('action');
+					$('#toplogo').toggleClass('blur');
+					$('.smart_bg').toggleClass('blur');
+					$('#content').toggleClass('blur');
+				});
 			});
 		</script>
 

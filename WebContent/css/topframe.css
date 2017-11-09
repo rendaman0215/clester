@@ -182,7 +182,11 @@ address{
 
 	#box{
 	margin-bottom: 100px
-}
+	}
+
+	.sp_menu{
+		display: none;
+	}
 }
 
 
@@ -257,5 +261,16 @@ address{
 
 	#box{
 		display: none;
+	}
+
+	.blur {
+		-webkit-transition:ease .4s;
+		transition:ease .4s; 
+
+		opacity:0.95;
+		transform:translateX(-20vw);
+
+		-webkit-filter: blur(5px);
+		filter: blur(5px);
 	}
 }
