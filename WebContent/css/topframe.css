@@ -241,7 +241,12 @@ address{
 		right:0;
 		vertical-align:center;
 		background-color: #FFF;
-		z-index:7;
+		z-index:9;
+	}
+
+	.drawer-menu li{
+		margin-top: 3vh;
+		font-family: "EB+Garamond";
 	}
 
 	.smart_bg img{
