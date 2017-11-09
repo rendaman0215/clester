@@ -212,8 +212,8 @@ address{
 		left:0;
 		text-align:left;
 
-		height:4vh;
-		width:16vw;
+		height:6vh;
+		width:24vw;
 		z-index:10;
 
 		background-image:url(../images/logo1.png);
@@ -237,7 +237,7 @@ address{
 	.sp_menu{
 		margin:0;
 		width:100vw;
-		height:5vh;
+		height:7vh;
 
 		position: fixed !important;
 		position: absolute;
@@ -264,11 +264,10 @@ address{
 	}
 
 	.blur {
-		-webkit-transition:ease .4s;
-		transition:ease .4s; 
+		-webkit-transition:ease .3s;
+		transition:ease .3s; 
 
-		opacity:0.95;
-		transform:translateX(-20vw);
+		transform:translateX(-30vw);
 
 		-webkit-filter: blur(5px);
 		filter: blur(5px);
