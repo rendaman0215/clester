@@ -32,7 +32,7 @@
 
 
 /* レスポンシブ対応 PC向け */
-@media only screen and (min-width:1000px){
+@media only screen and (min-width:631px){
 	/*--- wrapper ---*/
 	.wrapper {
 		width: 90%;
@@ -92,14 +92,8 @@
 	}
 }
 
-/* レスポンシブ対応スマホ横向き 
-@media only screen and (max-width:800px) and (orientation:landscape) {
-}*/
-
-
-
 /* レスポンシブ対応スマホ縦向き */
-@media only screen and (max-width:480px) and (orientation:portrait) {
+@media only screen and (max-width:630px){
 	.wrapper {
 		margin: 0 auto;
 		position: relative;
