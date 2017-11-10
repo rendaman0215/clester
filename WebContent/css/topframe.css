@@ -194,21 +194,8 @@ address{
 	}
 }
 
-
-/* レスポンシブ対応 スマホ横向き 
-@media only screen and (max-width:800px) and (orientation:landscape) {
-	.dynamic_bg{
-		display: none;
-	}
-
-	.smart_bg{
-		width: 100vw;
-	}
-}*/
-
-
 /* レスポンシブ対応 スマホ縦向き */
-@media only screen and (max-width:960px) and (orientation:portrait) {
+@media only screen and (max-width:630px){
 	#toplogo {
 		margin:0;
 		position: fixed !important;
