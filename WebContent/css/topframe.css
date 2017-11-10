@@ -9,6 +9,7 @@
 	background-color: #FFFFFF;
 }
 
+
 footer{
     position: fixed;
     bottom: 0;
@@ -187,6 +188,10 @@ address{
 	.sp_menu{
 		display: none;
 	}
+
+	.button{
+		display: none;
+	}
 }
 
 
@@ -272,4 +277,5 @@ address{
 		-webkit-filter: blur(5px);
 		filter: blur(5px);
 	}
+	
 }
