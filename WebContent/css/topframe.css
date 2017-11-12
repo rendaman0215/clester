@@ -103,7 +103,7 @@ address{
 
 	.menu li {
 		/*	width:100px;*/
-		padding:10px 1vw 0px 1vw;
+		padding:10px 1.5vw 0px 1.5vw;
 		margin:0 1vw 0 1vw;
 		display:inline-block;
 	}
