@@ -28,21 +28,21 @@ address{
 /* レスポンシブ対応 PC向け */
 @media only screen and (min-width:631px){
 	#toplogo {
-		margin:25px 60px 5px 60px;
+		margin:25px 40px 5px 40px;
 		position: fixed !important;
 		position: absolute;
 		top:0;
 		left:0;
 		text-align:left;
 
-		height:38px;
-		width: 130px;
+		height:50px;
+		width: 150px;
 		z-index:10;
 
 		background-image:url(../images/logo1.png);
 		background-position:center center;
 		background-repeat: no-repeat;
-		background-size:100% 100%;
+		background-size:100% auto;
 	}
 
 	#topsns{
@@ -197,21 +197,21 @@ address{
 /* レスポンシブ対応 スマホ縦向き */
 @media only screen and (max-width:630px){
 	#toplogo {
-		margin:0;
-		position: fixed !important;
+		margin:1vw 3vw 2vw 3vw;
+		position: fixed!important;
 		position: absolute;
-		top:0;
-		left:0;
+		top:0.1vw;
+		left:0.1vw;
 		text-align:left;
 
-		height:6vh;
-		width:24vw;
+		height:5%;
+		width:20%;
 		z-index:10;
 
 		background-image:url(../images/logo1.png);
 		background-position:center center;
 		background-repeat: no-repeat;
-		background-size:100% 100%;
+		background-size:100% auto;
 	}
 
 	#topsns{
