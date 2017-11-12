@@ -26,7 +26,7 @@ address{
 }
 
 /* レスポンシブ対応 PC向け */
-@media only screen and (min-width:631px){
+@media only screen and (min-width:666px){
 	#toplogo {
 		margin:25px 40px 5px 40px;
 		position: fixed !important;
@@ -195,7 +195,7 @@ address{
 }
 
 /* レスポンシブ対応 スマホ縦向き */
-@media only screen and (max-width:630px){
+@media only screen and (max-width:665px){
 	#toplogo {
 		margin:1vw 3vw 2vw 3vw;
 		position: fixed!important;
