@@ -256,8 +256,8 @@ address{
 	}
 
 	.blur {
-		-webkit-transition:ease .3s;
-		transition:ease .3s; 
+		-webkit-transition:ease .5s;
+		transition:ease .5s; 
 
 		transform:translateX(-30vw);
 
