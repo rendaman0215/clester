@@ -91,7 +91,7 @@ address{
 
 		text-align:center;
 		font-family: "Times New Roman";
-		font-size:1.5vw;
+		font-size:calc(7px + 0.75*1.5vw);
 
 		width:100%;
 		box-sizing:border-box;
@@ -103,8 +103,8 @@ address{
 
 	.menu li {
 		/*	width:100px;*/
-		padding:10px 1.5vw 0px 1.5vw;
-		margin:0 1vw 0 1vw;
+		padding:10px calc(1vw * 2 + 2px) 0px calc(vw * 2 + 2px);
+		margin:0 0.5vw 0 0.5vw;
 		display:inline-block;
 	}
 
