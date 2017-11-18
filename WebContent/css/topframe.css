@@ -48,7 +48,7 @@ address{
 /* レスポンシブ対応 PC向け */
 @media only screen and (min-width:666px){
 	#toplogo {
-		margin:25px 40px 5px 4vw;
+		margin:20px 40px 5px 4vw;
 		position: fixed !important;
 		position: absolute;
 		top:0;
@@ -66,7 +66,7 @@ address{
 	}
 
 	#topsns{
-		margin:20px 50px 5px 33px;
+		margin:25px 50px 5px 33px;
 		position: fixed !important;
 		position: absolute;
 		top:0;
@@ -75,13 +75,16 @@ address{
 		font-size:20px;
 		vertical-align:center;
 
+		height:50px;
 		width: 20%;
 		z-index:8;
 	}
 
 	#topsns li{
+		position:relative;
 		display:inline-block;
-		padding:0 10px 0 10px;
+		padding:15px 10px 10px 10px;
+		height:50px;
 	}
 
 	#topsns a{
@@ -106,14 +109,14 @@ address{
 		position: -webkit-sticky; /* Safari対応 */
 		position: sticky;
 		top:0px;
-		left:15%;
-		right:15%;
+		left:0;
+		right:0;
 
 		text-align:center;
 		font-family: "Times New Roman";
 		font-size:calc(5px + calc(0.75*1.5vw));
 
-		width:70%;
+		width:100%;
 		box-sizing:border-box;
 
 		background-color: #ffffff;
