@@ -90,9 +90,15 @@
 		//toggleClass()でクリック時のクラスの付け外しを指示
 			$(function() {
 				$('.drawer').click(function () {
-					$('#toplogo').toggleClass('blur');
-					$('.smart_bg').toggleClass('blur');
-					$('#content').toggleClass('blur');
+					$('.move').toggleClass('blur');
+					$('#content').removeClass('move');
+					$('.smart_bg').removeClass('move');
+					$('#toplogo').removeClass('move');
+					setTimeout( function () {
+					$('#content').addClass('move');
+					$('.smart_bg').addClass('move');
+					$('#toplogo').addClass('move');
+					} , 800 );
 				});
 				$('.drawer-menu-item').click(function () {
 					$('.drawer').drawer('close');
@@ -103,7 +109,7 @@
 	</head>
 
 	<body>
-		<a href="#toplogo"><div id="toplogo"></div></a>
+		<a href="#toplogo"><div id="toplogo" class="move"></div></a>
 		<div id="topsns">
 			<li><a href="https://www.facebook.com/?locale=ja_JP" target="_blank"><i class="fa fa-facebook"></i></a></li><!--
 			 --><li><a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
@@ -137,8 +143,8 @@
 			</div>
 		</div>
 		<div class="dynamic_bg"></div>
-		<div class="smart_bg"><img src="WebContent/images/bg_larc.png"></div>
-		<div id="content">
+		<div class="smart_bg move"><img src="WebContent/images/bg_larc.png"></div>
+		<div id="content" class="move">
 				<div id="box" align="center">
 					<h2>PICKUP</h2>
 					<ul class="bxslider">
