@@ -177,7 +177,7 @@ address{
 	}
 
 	.dynamic_bg{
-		width: 99vw;
+		width: 100vw;
 		height: 100vh;
 		/*背景画像を指定*/
 		background-image: url(../images/bg_larc.png);
