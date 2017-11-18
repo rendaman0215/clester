@@ -9,6 +9,26 @@
 	background-color: #FFFFFF;
 }
 
+h2 {
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+body{
+	line-height:1.1em;
+}
 
 footer{
     position: fixed;
@@ -157,7 +177,7 @@ address{
 	}
 
 	.dynamic_bg{
-		width: 99vw;
+		width: 100vw;
 		height: 100vh;
 		/*背景画像を指定*/
 		background-image: url(../images/bg_larc.png);
@@ -246,7 +266,7 @@ address{
 	}
 
 	.smart_bg img{
-		margin-top:3vh;
+		margin-top:7vh;
 		width: 100%;
 		height: auto;
 	}

@@ -27,7 +27,7 @@
 }
 
 .band_discription{
-	font-size: 80%;
+	font-size: 1em;
 }
 
 
@@ -124,6 +124,7 @@
 	}
 	#news .date {
 		width: 15vw;
+		margin-bottom: 1vh;
 		float: left;
 	}
 	#news .title {
