@@ -220,16 +220,18 @@ address{
 /* レスポンシブ対応 スマホ縦向き */
 @media only screen and (max-width:665px){
 	#toplogo {
-		margin:0.1vw 3vw 2vw 3vw;
+		margin:0vw 3vw 2vw 3vw;
 		position: fixed!important;
 		position: absolute;
-		top:0.1vw;
+		top:3.5vh;
 		left:0.1vw;
 		text-align:left;
 
-		height:50px;
-		width:120px;
+		height:7vh;
+		width:100px;
 		z-index:10;
+
+		transform:translateY(-3.5vh);
 
 		background-image:url(../images/logo1.png);
 		background-position:center center;
