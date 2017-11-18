@@ -157,7 +157,7 @@ address{
 	}
 
 	.dynamic_bg{
-		width: 100vw;
+		width: 99vw;
 		height: 100vh;
 		/*背景画像を指定*/
 		background-image: url(../images/bg_larc.png);
@@ -256,8 +256,8 @@ address{
 	}
 
 	.blur {
-		-webkit-transition:ease .3s;
-		transition:ease .3s; 
+		-webkit-transition:ease .5s;
+		transition:ease .5s; 
 
 		transform:translateX(-30vw);
 

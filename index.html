@@ -25,11 +25,12 @@
 		<!--　キャッシュ対策 End -->
 
 		<!-- stylesheet Start -->
+		<link rel="stylesheet" href="WebContent/css/reset.css" type="text/css" media="all" />
 		<link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
 		<link rel="stylesheet" href="WebContent/css/jquery.bxslider.css" type="text/css" media="all" />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 		<link rel="stylesheet" href="WebContent/css/list.css" type="text/css" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+		<link rel="stylesheet" href="WebContent/css/drawer.min.css">
 		<link rel="stylesheet" href="WebContent/css/topframe.css" type="text/css" />
 		<!-- stylesheet End -->
 
@@ -38,7 +39,7 @@
 		<script type="text/javascript" src="WebContent/js/jquery.bxslider.js"  charset="UTF-8"></script>
 		<script type="text/javascript" src="WebContent/js/scrollsmoothly.js"  charset="UTF-8"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+		<script type="text/javascript" src="WebContent/js/drawer.min.js"></script>
 
 		<!-- javascript end -->
 
@@ -81,7 +82,7 @@
 			});
 		</script>
 
-		<!-- Drawer定 -->
+		<!-- Drawer定義 -->
 		<script>
 			$(document).ready(function() {
 	 			$('.drawer').drawer();
@@ -93,6 +94,9 @@
 					$('.smart_bg').toggleClass('blur');
 					$('#content').toggleClass('blur');
 				});
+				$('.drawer-menu-item').click(function () {
+					$('.drawer').drawer('close');
+				});	
 			});
 		</script>
 
@@ -172,7 +176,6 @@
 						2018年に1stミニアルバム「XXX」をリリース予定。
 					</div>
 				</div>
-			</div>
 		</div>
 		<footer>
 			<address>&copy 2017 Clester, all rights reserved.</address>
