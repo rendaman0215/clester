@@ -90,8 +90,13 @@
 		//toggleClass()でクリック時のクラスの付け外しを指示
 			$(function() {
 				$('.drawer').click(function () {
-					$('.move').toggleClass('blur');
-					$('#content').removeClass('move');
+//					$('.move').toggleClass('blur');
+					if($('.drawer').hasClass('drawer-open')){
+						$('.move').addClass('blur');
+					}else if($('.drawer').hasClass('drawer-close')){
+						$('.move').removeClass('blur');
+					};
+/*					$('#content').removeClass('move');
 					$('.smart_bg').removeClass('move');
 					$('#toplogo').removeClass('move');
 					setTimeout( function () {
@@ -99,6 +104,7 @@
 					$('.smart_bg').addClass('move');
 					$('#toplogo').addClass('move');
 					} , 800 );
+*/
 				});
 				$('.drawer-menu-item').click(function () {
 					$('.drawer').drawer('close');
